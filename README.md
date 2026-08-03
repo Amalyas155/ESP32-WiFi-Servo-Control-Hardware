@@ -40,22 +40,12 @@ The built-in blue LED uses `GPIO 2`, so it does not require any external wiring.
 
 ## ⚙️ How It Works
 
-1. The ESP32 creates a WiFi network named `ESP32-Servo`.
+1. The ESP32 creates a local WiFi network.
 2. The user connects a phone or computer to the ESP32 network.
 3. The user opens `http://192.168.4.1` in a browser.
 4. The ESP32 displays a web page with Open and Close buttons.
 5. Pressing **Open** moves the Servo Motor to 90° and turns on the blue LED.
 6. Pressing **Close** returns the Servo Motor to 0° and turns off the blue LED.
-
-## 📶 WiFi Information
-
-| Setting   | Value                |
-| --------- | -------------------- |
-| WiFi Name | `ESP32-Servo`        |
-| Password  | `12345678`           |
-| Web Page  | `http://192.168.4.1` |
-
-> The ESP32 network does not provide internet access. If the phone displays **No Internet**, choose to remain connected.
 
 ## 💻 Software and Libraries
 
@@ -91,36 +81,21 @@ The `ESP32Servo` library can be installed from:
 
 1. Power the ESP32 using the USB cable.
 2. Open the WiFi settings on the phone or computer.
-3. Connect to the `ESP32-Servo` network.
-4. Enter the password `12345678`.
-5. Open a web browser.
-6. Enter `http://192.168.4.1`.
-7. Press Open or Close to control the Servo Motor.
+3. Connect to the WiFi network created by the ESP32.
+4. Open a web browser.
+5. Enter `http://192.168.4.1`.
+6. Press Open or Close to control the Servo Motor.
 
 ## 🎥 Real Hardware Run
 
 Here we show the project running using the real ESP32 board and SG90 Servo Motor.
 
-
-
-
-
-
-
-
-
 https://github.com/user-attachments/assets/c3a07d44-d359-4a9b-bf23-f335bde9ccf2
-
-
-
-
-
 
 ## 📁 Repository Files
 
-* `sketch.ino` — ESP32 source code.
+* `code.ino` — ESP32 source code.
 * `README.md` — Project documentation.
-* Project demonstration video.
 
 ## ✅ Project Result
 
