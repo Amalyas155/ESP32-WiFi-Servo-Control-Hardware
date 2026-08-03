@@ -105,7 +105,14 @@ Here we show the project running using the real ESP32 board and SG90 Servo Motor
 
 
 
-https://github.com/user-attachments/assets/5cf5f61d-e504-41b4-97b1-ea60df4deb52
+
+https://github.com/user-attachments/assets/e5644735-4141-4ff9-8385-b030b86d68b6
+
+
+
+https://github.com/user-attachments/assets/c3a07d44-d359-4a9b-bf23-f335bde9ccf2
+
+
 
 
 
